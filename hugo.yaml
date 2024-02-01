@@ -1,6 +1,6 @@
-baseURL: "https://hugo-profile.netlify.app"
+baseURL: "https://lanphan.github.io"
 languageCode: "en-us"
-title: "Hugo Profile"
+title: "Lan Phan Profile"
 theme: hugo-profile
 
 outputs:
