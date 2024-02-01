@@ -1,4 +1,4 @@
-baseURL: "https://lanphan.github.io"
+baseURL: "https://lanphan.github.io/porfolio/"
 languageCode: "en-us"
 title: "Lan Phan Profile"
 theme: hugo-profile
