@@ -1,4 +1,4 @@
-baseURL: "https://lanphan.github.io/porfolio"
+baseURL: "https://lanphan.github.io/portfolio/"
 languageCode: "en-us"
 title: "Lan Phan Profile"
 theme: hugo-profile
@@ -56,7 +56,7 @@ params:
   title: "Hugo Profile"
   description: Text about my cool site
   # staticPath: ""  # The path to serve the static files from
-  favicon: "/fav.png"
+  favicon: "fav.png"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -127,7 +127,7 @@ params:
     title: "Lan Phan"
     subtitle: "E-commerce | Marketing | Blockchain"
     content: "A seasoned technology leader and strategist with extensive experience building high-performance teams and innovative digital products."
-    image: /images/me.png
+    image: images/me.png
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
@@ -151,7 +151,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/me.png"
+    image: "images/me.png"
     content: |-
       I gain 15+ years of experience in software development field, mostly working in 3 domains: e-commerce, marketing and blockchain.
       

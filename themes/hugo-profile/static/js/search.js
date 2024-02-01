@@ -7,7 +7,7 @@ async function searchOnChange(evt) {
 
   if (searchQuery !== "") {
     if (!window.searchJson) {
-      window.searchJson = await fetch("/index.json").then((res) => res.json());
+      window.searchJson = await fetch("index.json").then((res) => res.json());
     }
 
     let searchResults = searchJson.filter((item) => {
