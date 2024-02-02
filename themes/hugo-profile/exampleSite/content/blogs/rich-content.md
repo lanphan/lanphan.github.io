@@ -7,7 +7,7 @@ tags:
   - Rich content
   - Sample
   - example
-image: /images/post.jpg
+image: images/post.jpg
 description: ""
 toc: 
 ---
