@@ -53,8 +53,8 @@ Menus:
     #   weight: 2
 
 params:
-  title: "Hugo Profile"
-  description: Text about my cool site
+  title: "Lan Phan Profile"
+  description: Portfolio about Lan Phan
   # staticPath: ""  # The path to serve the static files from
   favicon: "fav.png"
 
@@ -76,7 +76,7 @@ params:
 
   theme:
     # disableThemeToggle: true
-    # defaultTheme: "light" # dark
+    defaultTheme: "light" # dark
 
   font:
     fontSize: 1rem # default: 1rem
@@ -153,9 +153,13 @@ params:
     title: "About Me"
     image: "images/me.png"
     content: |-
-      I gain 15+ years of experience in software development field, mostly working in 3 domains: e-commerce, marketing and blockchain.
-      
-      My strong point is about my knowledge and utilization of open sources into my work, so that I can come up with a solution for all problems quickly and make product ready to go to the market as soon as possible.
+      With over 15 years of experience in the software development field, I have honed my expertise across three key domains: e-commerce, marketing, and blockchain.
+
+      One of my strongest assets is my extensive knowledge and adept utilization of open-source technologies. This proficiency allows me to swiftly identify and implement effective solutions for various challenges, enabling me to expedite product development and ensure a rapid time-to-market.
+
+      Throughout my career, I have consistently demonstrated my ability to leverage open-source resources to streamline development processes, enhance functionality, and deliver high-quality products. By staying abreast of the latest open-source advancements, I am able to tap into a vast array of tools, frameworks, and libraries, empowering me to tackle complex problems efficiently and effectively.
+
+      My deep understanding of these domains, combined with my expertise in harnessing open-source technologies, positions me as a valuable asset capable of driving innovation, optimizing development cycles, and delivering market-ready products expeditiously.
     skills:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
@@ -172,65 +176,81 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - job: "Senior Software Developer"
-        company: "Facebook"
-        companyUrl: "https://example.com"
-        date: "Jan 2022 - present"
+      - job: "Engineering Director"
+        company: "Whydah"
+        companyUrl: "https://whydah.xyz/"
+        date: "Jul 2022 - present"
         featuredLink:
-          enable: true
+          enable: false
           name: "View the project"
           url: "https://example.com"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+        content: "Results-driven professional with expertise in blockchain adoption and a strong focus on balancing decentralization and centralization within corporations. Demonstrated leadership in spearheading end-to-end development of a groundbreaking product bridging web2 and web3 domains. Skilled in designing platforms that enable seamless interaction between web2 developers and blockchain technologies like Kardiachain (layer 1). Accomplished in
+developing innovative solutions, such as OIDC server for NFT-based identity verification, data indexing, on-chain data analysis, mass transaction execution strategies, game publication airdrops, and secure private key management using Hashicorp Vault.
 
-      - job: "Software Developer"
-        company: "Amazon"
-        companyUrl: "https://example.com"
-        date: "Sep 2020 - Dec 2021"
+
+Currently leading multiple digital transformation projects for a large transportation corporation in Vietnam in multiple domain: fund raising based on Real World Asset (RWA) token, e-vouchers based on NFT and more.
+
+
+I took an active role in defining a culture for company: culture of writing to write down all documents and training materials, culture of learning to learn new cutting-edge technologies such as automation testing, low-code development, blockchain and AI."
+
+      - job: "Engineering Manager"
+        company: "Epsilo"
+        companyUrl: "https://www.epsilo.io/"
+        date: "May 2020 - May 2022"
         featuredLink:
-          enable: true
+          enable: false
           url: "https://example.com"
         info:
-          enable: true
+          enable: false
           content: I worked as a software developer for more than one year in Amazon.
         content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+          I made a significant impact by providing crucial support to the Board of Directors in successfully raising Series A funding. Additionally, I took the lead in driving multiple refactoring initiatives for our existing product, resulting in enhanced scalability, improved ease of maintenance, and overall performance. These efforts significantly contributed to our continued growth and success.
 
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
+          During this period, I gained valuable experience in developing a comprehensive process to determine whether to "build or outsource" specific projects. This involved evaluating factors such as cost, expertise, timeline, and strategic alignment to make informed decisions on resource allocation. Furthermore, I established an effective process for sourcing and monitoring the progress of outsourced projects aimed at supporting our core product. This ensured that these initiatives aligned with our objectives and met the desired standards of quality.
 
-      - job: "Junior Software Developer"
-        company: "Apple"
-        companyUrl: "https://example.com"
-        date: "Jan 2020 - Aug 2020"
+      - job: "CTO"
+        company: "Clavis Aurea"
+        companyUrl: "https://www.linkedin.com/company/clavis-aurea/"
+        date: "Apr 2017 - Apr 2020"
         info:
           enable: false
         featuredLink:
-          enable: true
+          enable: false
           url: "https://example.com"
         content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+          Build a whole technical + product team (max 10 members) from scratch to develop [Beetrack](https://beetrack.io/home-en/) - Asset Management and Operations.
 
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "UI/UX Designer"
-        company: "Netflix"
-        companyUrl: "https://example.com"
-        date: "June 2017 - Nov 2019"
+      - job: "Technical Leader"
+        company: "Knorex"
+        companyUrl: "https://www.knorex.com/"
+        date: "May 2016 - Aug 2017"
         featuredLink:
-          enable: true
+          enable: false
           url: "https://example.com"
         content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+          Maintain and implement new features for marketing platform product - Arena.
 
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
+          - Understand and apply marketing platform concepts in real products.
+          - Upgrade product incrementally while it's running to prevent failure.
+          - Keep product running in consistent state with other related services.
 
-      - job: "Product Designer"
-        company: "Google"
-        companyUrl: "https://example.com"
-        date: "Feb 2016 - Mar 2017"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+      - job: "Project Manager"
+        company: "Versalogies"
+        # companyUrl: "https://example.com"
+        date: "Mar 2012 - Apr 2015"
+        content: "Manage all projects in the company, work directly with multiple customers, define solution to satisfy customer's requests.
+        
+          - Internal research projects relating to new technologies: CUDA, Big Data (Hadoop), ElasticSearch, Question Answering System, Natural Language Processing (NLP) and Semantic Search.
+          
+          - Partnered with [Opower](https://opower.com) to develop and test their new product using their distributed framework.
+          
+          - Partnered with Global Cybersoft (was rebranded to Hitachi Vantara Vietnam in Jan 2020) to help training and setup Big Data team."
+
+      - job: "Project Manager"
+        company: "GATe Technology"
+        companyUrl: "https://www.linkedin.com/company/gate-technology-vietnam/"
+        date: "Jul 2007 - Mar 2012"
+        content: "Manage all [AUTOSAR](https://www.autosar.org/) tooling projects. Worked directly with customers, and expanded contribution of Vietnam team to work on all fields of AUTOSAR tooling projects."
 
   # Education
   education:
