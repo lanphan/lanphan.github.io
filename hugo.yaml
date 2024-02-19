@@ -240,7 +240,7 @@ I took an active role in defining a culture for company: culture of writing to w
         date: "Mar 2012 - Apr 2015"
         content: "Manage all projects in the company, work directly with multiple customers, define solution to satisfy customer's requests.
         
-          - Internal research projects relating to new technologies: CUDA, Big Data (Hadoop), ElasticSearch, Question Answering System, Natural Language Processing (NLP) and Semantic Search.
+          - Internal projects relating to new technologies: CUDA, Big Data (Hadoop), ElasticSearch, Question Answering System, Natural Language Processing (NLP) and Semantic Search.
           
           - Partnered with [Opower](https://opower.com) to develop and test their new product using their distributed framework.
           
@@ -309,7 +309,7 @@ I took an active role in defining a culture for company: culture of writing to w
 
   # projects
   projects:
-    enable: true
+    enable: false
     # title: "Custom Name"
     items:
       - title: Hugo Profile
